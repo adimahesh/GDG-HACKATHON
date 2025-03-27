@@ -1,0 +1,311 @@
+{
+    "diseases": [
+        {
+            "name": "Diabetes",
+            "description": "A metabolic disorder characterized by chronic high blood sugar levels due to insulin resistance or inadequate insulin production. Can lead to serious complications affecting eyes, kidneys, nerves, and cardiovascular system.",
+            "symptoms": [
+                "Frequent urination",
+                "Increased thirst and hunger",
+                "Unexplained weight loss",
+                "Fatigue and blurred vision",
+                "Slow-healing wounds"
+            ],
+            "solutions": [
+                "Maintain a balanced low-glycemic diet",
+                "Regular physical activity (150 mins/week)",
+                "Continuous glucose monitoring",
+                "Insulin therapy (if prescribed)",
+                "Regular A1C tests"
+            ],
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-AqjsXPYv-iq4lXiGKuGf5hGIsQJ7NlP0lIFkGVLkcEHnpo79Pp2Cx2XPQAfb17vq3zs&usqp=CAU"
+        },
+        {
+            "name": "Hypertension",
+            "description": "Persistent elevation of arterial blood pressure (≥130/80 mmHg) that damages blood vessels over time, increasing risk of heart attack, stroke, and kidney disease. Often called the 'silent killer' due to asymptomatic nature.",
+            "symptoms": [
+                "Severe headaches",
+                "Nosebleeds",
+                "Shortness of breath",
+                "Dizziness or lightheadedness",
+                "Visual changes (in severe cases)"
+            ],
+            "solutions": [
+                "DASH diet (low sodium, high potassium)",
+                "Aerobic exercise 30 mins/day",
+                "Stress-reduction techniques",
+                "Regular blood pressure checks",
+                "Antihypertensive medications"
+            ],
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTOvzRgugnWXJQyijbWXCf1hzL_ckmOYMwgjIT_SZnoJA-KpFkSSbWEY1Rk62aHn2mTc0&usqp=CAU"
+        },
+        {
+            "name": "Asthma",
+            "description": "Chronic inflammatory airway disorder causing recurrent episodes of bronchospasm, mucus production, and breathing difficulty. Triggers include allergens, pollution, and respiratory infections.",
+            "symptoms": [
+                "Wheezing (whistling sound when breathing)",
+                "Chest tightness",
+                "Shortness of breath",
+                "Persistent coughing (worse at night)",
+                "Rapid breathing pattern"
+            ],
+            "solutions": [
+                "Identify and avoid triggers",
+                "Use controller and rescue inhalers",
+                "Peak flow monitoring",
+                "Allergy management",
+                "Breathing exercises (pursed-lip breathing)"
+            ],
+            "imageUrl": "https://static.vecteezy.com/system/resources/previews/023/900/850/non_2x/asthma-disease-illustration-with-human-lungs-and-inhalers-for-breathing-in-healthcare-flat-cartoon-hand-drawn-landing-page-templates-vector.jpg"
+        },
+        {
+            "name": "Fever",
+            "description": "Temporary elevation of body temperature (≥100.4°F/38°C), typically signaling infection or inflammation. A protective immune response that enhances pathogen-fighting capabilities.",
+            "symptoms": [
+                "Chills and shivering",
+                "Sweating",
+                "Muscle aches",
+                "Headache",
+                "Dehydration",
+                "General weakness"
+            ],
+            "solutions": [
+                "Adequate rest and hydration",
+                "Antipyretics (acetaminophen/ibuprofen)",
+                "Cool compresses",
+                "Light clothing",
+                "Monitor temperature every 4-6 hours"
+            ],
+            "imageUrl": "https://cdn.vectorstock.com/i/preview-1x/80/66/woman-with-thermometer-vector-47038066.jpg"
+        },
+        {
+            "name": "Cold",
+            "description": "A viral infection of the upper respiratory tract, often characterized by symptoms such as runny nose, sore throat, and cough. Generally mild but can lead to more serious health issues in some individuals.",
+            "symptoms": [
+                "Runny or stuffy nose",
+                "Sore throat",
+                "Cough",
+                "Sneezing",
+                "Fatigue"
+            ],
+            "solutions": [
+                "Stay hydrated",
+                "Rest and sleep",
+                "Use over-the-counter cold medications",
+                "Saltwater gargles for sore throat",
+                "Humidifiers to ease congestion"
+            ],
+            "imageUrl": "https://image.shutterstock.com/image-photo/middle-aged-woman-coughing-260nw-1670672367.jpg"
+        },
+        {
+            "name": "Cough",
+            "description": "A common reflex action to clear the throat and airways of mucus or foreign irritants. Can be acute or chronic, and may be symptomatic of various underlying conditions.",
+            "symptoms": [
+                "Persistent or dry cough",
+                "Coughing up mucus",
+                "Chest discomfort",
+                "Wheezing",
+                "Shortness of breath"
+            ],
+            "solutions": [
+                "Stay hydrated",
+                "Humidity to ease throat irritation",
+                "Over-the-counter cough suppressants or expectorants",
+                "Avoid smoke and pollutants",
+                "Consult a doctor if severity increases"
+            ],
+            "imageUrl": "https://image.shutterstock.com/image-photo/woman-coughing-260nw-550658409.jpg"
+        },
+         
+                {
+                    "name": "Chickenpox",
+                    "description": "A highly contagious viral infection causing itchy, blister-like rashes on the skin, primarily affecting children.",
+                    "symptoms": [
+                        "Red, itchy rash (turns into blisters)",
+                        "Fever",
+                        "Fatigue",
+                        "Loss of appetite",
+                        "Headache"
+                    ],
+                    "solutions": [
+                        "Calamine lotion for itch relief",
+                        "Oatmeal baths",
+                        "Rest and hydration",
+                        "Antihistamines for itching",
+                        "Avoid scratching to prevent scarring"
+                    ],
+                    "imageUrl": "https://www.touchwoodpharmacy.com/wp-content/uploads/2021/10/Should-your-Child-Have-Chickenpox-Vaccination_.jpg"
+                },
+                {
+                    "name": "Typhoid",
+                    "description": "A bacterial infection caused by Salmonella typhi, spread through contaminated food and water.",
+                    "symptoms": [
+                        "High fever (103-104°F)",
+                        "Weakness and fatigue",
+                        "Loss of appetite",
+                        "Abdominal pain",
+                        "Constipation or diarrhea"
+                    ],
+                    "solutions": [
+                        "Antibiotic treatment",
+                        "Hydration with electrolyte solutions",
+                        "Eat soft, digestible foods",
+                        "Maintain good hygiene",
+                        "Get vaccinated in high-risk areas"
+                    ],
+                    "imageUrl": "https://assets.telegraphindia.com/telegraph/2004gita.jpg"
+                },
+                {
+                    "name": "Jaundice",
+                    "description": "A condition where the skin and eyes turn yellow due to excess bilirubin in the blood, often caused by liver dysfunction.",
+                    "symptoms": [
+                        "Yellowing of skin and eyes",
+                        "Dark urine",
+                        "Pale stools",
+                        "Fatigue",
+                        "Abdominal pain"
+                    ],
+                    "solutions": [
+                        "Increase fluid intake",
+                        "Eat liver-friendly foods (leafy greens, turmeric)",
+                        "Avoid alcohol and fatty foods",
+                        "Rest adequately",
+                        "Consult a doctor for underlying causes"
+                    ],
+                    "imageUrl": "https://img.freepik.com/free-vector/cartoon-character-with-jaundice-symptoms_1308-47367.jpg"
+                },
+                {
+                    "name": "Hepatitis B",
+                    "description": "A viral infection affecting the liver, causing inflammation and potentially leading to liver damage.",
+                    "symptoms": [
+                        "Yellowing of skin and eyes",
+                        "Dark urine",
+                        "Nausea and vomiting",
+                        "Fatigue",
+                        "Loss of appetite"
+                    ],
+                    "solutions": [
+                        "Hepatitis B vaccination",
+                        "Avoid alcohol and liver-damaging drugs",
+                        "Regular liver function tests",
+                        "Antiviral medications if prescribed",
+                        "Healthy diet and lifestyle"
+                    ],
+                    "imageUrl": "https://www.who.int/images/default-source/health-topics/hepatitis/hepatitis-b.jpg"
+                },
+                {
+                    "name": "Measles",
+                    "description": "A highly contagious viral disease causing fever, cough, runny nose, and a characteristic red rash.",
+                    "symptoms": [
+                        "High fever",
+                        "Runny nose",
+                        "Red, watery eyes",
+                        "Cough",
+                        "Red rash spreading from face to body"
+                    ],
+                    "solutions": [
+                        "MMR vaccine for prevention",
+                        "Rest and hydration",
+                        "Vitamin A supplementation",
+                        "Avoid crowded places to prevent spread",
+                        "Pain relievers for fever"
+                    ],
+                    "imageUrl": "https://www.cdc.gov/measles/images/measles-rash.jpg"
+                },
+                {
+                    "name": "Chikungunya",
+                    "description": "A mosquito-borne viral disease causing fever and severe joint pain, often mistaken for dengue.",
+                    "symptoms": [
+                        "High fever",
+                        "Severe joint and muscle pain",
+                        "Skin rash",
+                        "Fatigue",
+                        "Headache"
+                    ],
+                    "solutions": [
+                        "Plenty of fluids",
+                        "Pain relievers (avoid aspirin)",
+                        "Avoid mosquito bites",
+                        "Bed rest",
+                        "Physical therapy for joint pain"
+                    ],
+                    "imageUrl": "https://www.who.int/images/default-source/health-topics/chikungunya/chikungunya-virus.jpg"
+                },
+                {
+                    "name": "Swine Flu (H1N1)",
+                    "description": "A respiratory disease caused by the H1N1 influenza virus, leading to flu-like symptoms.",
+                    "symptoms": [
+                        "Fever",
+                        "Cough and sore throat",
+                        "Body aches",
+                        "Fatigue",
+                        "Shortness of breath"
+                    ],
+                    "solutions": [
+                        "Annual flu vaccination",
+                        "Rest and hydration",
+                        "Antiviral medications if prescribed",
+                        "Avoid crowded areas",
+                        "Practice good hygiene"
+                    ],
+                    "imageUrl": "https://www.cdc.gov/h1n1flu/images/swineflu.jpg"
+                },
+                {
+                    "name": "Ebola",
+                    "description": "A rare but deadly virus causing severe hemorrhagic fever, spread through direct contact with infected bodily fluids.",
+                    "symptoms": [
+                        "High fever",
+                        "Severe headache",
+                        "Uncontrolled bleeding",
+                        "Diarrhea and vomiting",
+                        "Organ failure in severe cases"
+                    ],
+                    "solutions": [
+                        "Immediate isolation of infected persons",
+                        "Rehydration therapy",
+                        "Use of protective equipment",
+                        "Avoid contact with infected bodily fluids",
+                        "Supportive hospital care"
+                    ],
+                    "imageUrl": "https://www.who.int/images/default-source/health-topics/ebola/ebola-virus.jpg"
+                },
+                {
+                    "name": "Rabies",
+                    "description": "A deadly viral infection transmitted through animal bites, affecting the nervous system and causing severe symptoms.",
+                    "symptoms": [
+                        "Fever and headache",
+                        "Excessive drooling",
+                        "Muscle spasms",
+                        "Difficulty swallowing",
+                        "Hallucinations and paralysis"
+                    ],
+                    "solutions": [
+                        "Immediate wound cleaning",
+                        "Rabies vaccination",
+                        "Avoid stray animals",
+                        "Seek immediate medical attention if bitten",
+                        "Post-exposure prophylaxis"
+                    ],
+                    "imageUrl": "https://www.cdc.gov/rabies/images/rabies-virus.jpg"
+                },
+                {
+                    "name": "Leprosy",
+                    "description": "A chronic bacterial disease affecting the skin, nerves, and respiratory tract, leading to deformities if untreated.",
+                    "symptoms": [
+                        "Skin lesions",
+                        "Numbness in affected areas",
+                        "Muscle weakness",
+                        "Loss of eyebrows and eyelashes",
+                        "Ulcers on hands and feet"
+                    ],
+                    "solutions": [
+                        "Multidrug therapy (MDT)",
+                        "Early diagnosis and treatment",
+                        "Proper hygiene and wound care",
+                        "Avoid prolonged contact with untreated individuals",
+                        "Rehabilitation for nerve damage"
+                    ],
+                    "imageUrl": "https://www.who.int/images/default-source/health-topics/leprosy/leprosy.jpg"
+                }
+            ]
+        }
+    

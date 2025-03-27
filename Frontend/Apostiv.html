@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donor Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #b3ecff;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .container {
+            margin-top: 20px;
+            padding: 20px;
+        }
+
+        .blood-type {
+            display: inline-block;
+            background-color: red;
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .profile {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            background: white;
+            padding: 20px;
+            width: 60%;
+            height: 500px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .profile img {
+            width: 200px;
+            height: 200px;
+        }
+
+        .info {
+            text-align: left;
+            font-size: 18px;
+        }
+
+        .info p {
+            margin: 5px 0;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .profile {
+                flex-direction: column;
+                text-align: center;
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="blood-type">A+ve</div>
+
+        <div class="profile">
+            <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="Profile Image">
+            <div class="info">
+                <p><strong>Name:</strong> Ravi</p>
+                <br>
+                <p><strong>Age:</strong> 27</p>
+                <br>
+                <p><strong>Gender:</strong> Male</p>
+                <br>
+                <p><strong>Address:</strong> Seven Hills Hospitals, Kovvada, Bhimavaram, <br>Pin: 530024</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

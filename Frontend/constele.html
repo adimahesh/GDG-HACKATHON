@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tele-Consultation</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #E3F2FD;
+            font-family: 'Arial', sans-serif;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px;
+        }
+        .header {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 30px;
+            text-decoration: underline;
+            text-align: center;
+            color: hsl(180, 82%, 2%);
+        }
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 80%;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .form-section {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            width: 50%;
+        }
+        .form-group {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.2em;
+        }
+        .form-group label {
+            min-width: 100px;
+            font-weight: bold;
+            color: #333;
+        }
+        .form-group input {
+            padding: 10px;
+            width: 100%;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 1em;
+        }
+        .image-section img {
+            width: 400px;
+            height: auto;
+            border-radius: 10px;
+        }
+        .join-button {
+            margin-top: 20px;
+            padding: 12px 25px;
+            font-size: 1.2em;
+            font-weight: bold;
+            background-color: #15d0ff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .join-button:hover {
+            background-color: #12d0e6;
+        }
+        .back {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            font-size: 24px;
+            cursor: pointer;
+            color: #000809;
+        }
+    </style>
+</head>
+<body>
+    <div class="back">&lt; Back</div>
+    <div class="container">
+        <div class="header">Consultancy</div>
+        <div class="content">
+            <div class="form-section">
+                <h2 style="text-decoration: underline; color: #000707;">Tele-Communication:</h2>
+                <div class="form-group">
+                    <label>Name:</label>
+                    <input type="text" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label>Gender:</label>
+                    <input type="text" placeholder="Enter your gender">
+                </div>
+                <div class="form-group">
+                    <label>Age:</label>
+                    <input type="number" placeholder="Enter your age">
+                </div>
+                <div class="form-group">
+                    <label>Disease:</label>
+                    <input type="text" placeholder="Enter your disease">
+                </div>
+            </div>
+            <div class="image-section">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGqKTmX-X9MJkRuM83yIjxuiyWA24q0s03Dc6--y5MWtIG4fC3-KFTeYaFCHJSlOR2vmA&usqp=CAU" alt="Doctor Consultation">
+            </div>
+        </div>
+        <button class="join-button" >JOIN &gt;</button>
+    </div>
+</body>
+</html>

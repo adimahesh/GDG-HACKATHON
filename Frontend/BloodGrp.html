@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Providence</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #b3ecff;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+            text-decoration: underline;
+        }
+
+        .blood-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 100px; /* Increased gap between elements */
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+            max-width: 650px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .blood-type {
+            width: 110px; /* Slightly larger for better visibility */
+            height: 110px;
+            background-color: red;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .blood-type:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        #selectedBlood {
+            font-size: 18px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .blood-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 25px; /* More gap on smaller screens */
+            }
+            .blood-type {
+                width: 90px;
+                height: 90px;
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Blood Providence</h1>
+        <div class="blood-grid">
+            <div class="blood-type" onclick="selected()">A+</div>
+            <div class="blood-type" onclick="selectBlood('A-')">A-</div>
+            <div class="blood-type" onclick="selectBlood('B+')">B+</div>
+            <div class="blood-type" onclick="selectBlood('B-')">B-</div>
+            <div class="blood-type" onclick="selectBlood('AB+')">AB+</div>
+            <div class="blood-type" onclick="selectBlood('AB-')">AB-</div>
+            <div class="blood-type" onclick="selectBlood('O+')">O+</div>
+            <div class="blood-type" onclick="selectBlood('O-')">O-</div>
+        </div>
+        <p id="selectedBlood">Select a blood type</p>
+        <form id="myForm" action="/main4" method="POST">
+            
+        </form>
+    </div>
+
+    <script>
+         function selected() {
+        document.getElementById("myForm").submit();
+    }
+        function selectBlood(type) {
+            document.getElementById("selectedBlood").innerText = "Selected Blood Type: " + type;
+        }
+    </script>
+</body>
+</html>

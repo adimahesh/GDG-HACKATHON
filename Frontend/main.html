@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Diseases</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="https://cdn.glitch.global/ce277232-287a-4dc3-8659-898be9f5f813/medico-logo.jpg?v=1740180178964">
+                <h3><span>H</span>ealth<span>O</span>rigin</h3>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#about"><i class="fas fa-info-circle"></i> About</a></li>
+                    <li><a href="#services"><i class="fas fa-stethoscope"></i> Services</a></li>
+                    <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+    </header>
+    
+    <div class="container">
+        <div class="inputblock">
+            <input type="text" id="search" placeholder="Search for a disease..." />
+            <button id="searchButton">Search</button>
+        </div>
+        <div id="disease-list">
+            <!-- Disease list will be populated here -->
+             <div class="home">
+             <div class="one">
+                <img src="https://cdn.vectorstock.com/i/preview-1x/80/66/woman-with-thermometer-vector-47038066.jpg">
+                <h3>Fever</h3>
+                <button class="more" onclick="manual1('Fever')">More</button>
+             </div>
+             <div class="one">
+                <img src="https://static.vecteezy.com/system/resources/previews/023/900/850/non_2x/asthma-disease-illustration-with-human-lungs-and-inhalers-for-breathing-in-healthcare-flat-cartoon-hand-drawn-landing-page-templates-vector.jpg">
+                <h3>Asthma</h3>
+                <button class="more" value="Asthma">More</button>
+             </div>
+             <div class="one">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTOvzRgugnWXJQyijbWXCf1hzL_ckmOYMwgjIT_SZnoJA-KpFkSSbWEY1Rk62aHn2mTc0&usqp=CAU">
+                <h3>Hypertension</h3>
+                <button class="more" value="Hypertension">More</button>
+             </div>
+             <div class="one">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-AqjsXPYv-iq4lXiGKuGf5hGIsQJ7NlP0lIFkGVLkcEHnpo79Pp2Cx2XPQAfb17vq3zs&usqp=CAU">
+                <h3>Diabetes</h3>
+                <button class="more" value="Diabetes">More</button>
+             </div>
+             <div class="one">
+                <img src="https://www.touchwoodpharmacy.com/wp-content/uploads/2021/10/Should-your-Child-Have-Chickenpox-Vaccination_.jpg">
+                <h3>Chickenpox</h3>
+                <button class="more" value="Chickenpox">More</button>
+             </div>
+             <div class="one">
+                <img src="https://assets.telegraphindia.com/telegraph/2004gita.jpg">
+                <h3>Typhoid</h3>
+                <button class="more" value="Typhoid">More</button>
+             </div>
+             <div class="one">
+                <img src="https://img.freepik.com/free-vector/cartoon-character-with-jaundice-symptoms_1308-47367.jpg">
+                <h3>Jaundice</h3>
+                <button class="more" value="Jaundice">More</button>
+             </div>
+             <div class="one">
+                <img src="https://cdn.vectorstock.com/i/preview-1x/80/66/woman-with-thermometer-vector-47038066.jpg">
+                <h3>Fever</h3>
+                <button class="more" value="Fever">More</button>
+             </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="foot">
+            <p>&copy; 2023 Healthcare Solutions. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

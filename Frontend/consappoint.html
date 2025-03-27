@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultancy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #B3EAFD;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 36px;
+            margin-bottom: 5px;
+        }
+        .divider {
+            width: 100px;
+            height: 2px;
+            background-color: black;
+            margin: 0 auto 20px;
+        }
+        .form-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .form-section {
+            text-align: left;
+            flex: 1;
+        }
+        .form-section h2 {
+            font-size: 24px;
+            text-decoration: underline;
+        }
+        label {
+            font-size: 18px;
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input {
+            width: 90%;
+            padding: 8px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .image-section {
+            flex: 1;
+            text-align: center;
+        }
+        .image-section img {
+            width: 80%;
+            border-radius: 10px;
+        }
+        .book-btn {
+            background-color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .book-btn:hover {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Consultancy</h1>
+        <div class="divider"></div>
+        
+        <div class="form-container">
+            <div class="form-section">
+                <h2>Appointment:</h2>
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter your name">
+                
+                <label for="gender">Gender:</label>
+                <input type="text" id="gender" placeholder="Enter your gender">
+                
+                <label for="age">Age:</label>
+                <input type="number" id="age" placeholder="Enter your age">
+                
+                <label for="disease">Disease:</label>
+                <input type="text" id="disease" placeholder="Enter your disease">
+            </div>
+            <div class="image-section">
+                <img src="https://thumbs.dreamstime.com/b/medical-doctor-calendar-checkup-appointment-schedule-plan-flat-illustration-hospital-clinic-healthcare-trendy-306855147.jpg" alt="Doctor Appointment">
+                <p>Doctor Appointment</p>
+            </div>
+        </div>
+        
+        <button class="book-btn" >Book appointment &gt;</button>
+    </div>
+
+    <script>
+        function bookAppointment() {
+            let name = document.getElementById('name').value;
+            let gender = document.getElementById('gender').value;
+            let age = document.getElementById('age').value;
+            let disease = document.getElementById('disease').value;
+            
+            if (name && gender && age && disease) {
+                alert(`Appointment booked for ${name}!`);
+            } else {
+                alert('Please fill in all fields.');
+            }
+        }
+    </script>
+</body>
+</html>

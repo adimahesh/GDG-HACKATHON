@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultancy</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #B3ECFF;
+            font-family: serif;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .header {
+            font-size: 2em;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-decoration: underline;
+        }
+        .cards {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        .card {
+            width: 250px;
+            height: 300px;
+            background-color: #E6F7FF;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2em;
+            font-weight: bold;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+        }
+        .back {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 24px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="back">&lt;</div>
+    <div class="container">
+        <div class="header">Consultancy</div>
+        <div class="cards">
+            <div class="card" onclick="tele()">Tele-Communication</div>
+            <div class="card" onclick="appo()">Appointment</div>
+        </div>
+    </div>
+    <form id="myForm3" action="/main6" method="POST">
+            
+    </form>
+    <form id="myForm3" action="/main7" method="POST">
+            
+    </form>
+</body>
+<script>
+    function tele(){
+        document.getElementById("myForm3").submit();
+    }
+    function appo(){
+        document.getElementById("myForm3").submit();
+    }
+</script>
+</html>

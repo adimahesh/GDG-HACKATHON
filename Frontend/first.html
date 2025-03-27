@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background-color: #1e1e2e;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .laptop {
+            width: 60%;
+            height: 75vh;
+            background: linear-gradient(135deg, #ffffff, #06e9e9);
+            border-radius: 20px;
+            padding: 20px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        }
+        .card {
+            background-color: white;
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 80%;
+        }
+        .card h2 {
+            font-weight: 600;
+            text-decoration: underline;
+            color: #333;
+        }
+        .service {
+            background: linear-gradient(135deg, #47d4e9, #c4edf4);
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: 400;
+            color: #333;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+        .service:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .back-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            font-size: 24px;
+            color: white;
+            cursor: pointer;
+        }
+        .floating-icon {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            width: 50px;
+            height: 50px;
+            background-color: white;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="laptop">
+        <div class="back-button">&#8592;</div>
+        <div class="card">
+            <h2>SERVICES</h2>
+            <div class="service" onclick="submitForm()">Diseases</div>
+            <div class="service" onclick="submitForm2()">Blood Providence</div>
+            <div class="service" onclick="submitForm1() "><b>Government Schemes</b></div>
+            <div class="service" onclick="submitForm3()">Consultancy</div>
+        </div>
+        <div class="floating-icon">🔍</div>
+        <form id="myForm" action="/main1" method="POST">
+        
+        </form>
+        <form id="myForm1" action="/main2" method="POST">
+            
+        </form>
+        <form id="myForm2" action="/main3" method="POST">
+            
+        </form>
+        <form id="myForm3" action="/main5" method="POST">
+            
+        </form>
+    </div>
+    <script>
+       function submitForm() {
+        document.getElementById("myForm").submit();
+    }
+    function submitForm1() {
+        document.getElementById("myForm1").submit();
+    }
+    function submitForm2() {
+        document.getElementById("myForm2").submit();
+    }
+    function submitForm3() {
+        document.getElementById("myForm3").submit();
+    }
+    </script>
+</body>
+</html>
